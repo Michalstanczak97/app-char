@@ -1,0 +1,118 @@
+@import "../scss/settings/fonts";
+@import "../scss/settings/colors";
+.container {
+  display: flex;
+  width: 100vw;
+  height: 963px;
+
+}
+.img-container {
+  flex: 1;
+  background-image: url('../assets/Home-Hero-Image.jpg');
+  background-position: right;
+}
+   .right__container{
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+  }
+
+  .login__container {
+
+
+  }
+  .container__navigation{
+    display: flex;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: $fifthColor;
+    font-family: $font-base;
+    justify-content: flex-end;
+    .login{
+      margin-right: 2rem;
+      border: 0.1rem solid white;
+
+    }
+    .register {
+      border: 0.1rem solid $thirdColor;
+
+    }
+  }
+  .nav__container{
+    width: 45rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    color: $fifthColor;
+    font-weight: lighter;
+    font-family: $font-base;
+    margin: 1rem 0 50rem 0;
+    position: relative;
+
+  }
+
+  .help__us {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+      font-family: $font-base;
+      font-size: 2.3rem;
+      line-height: 3.5rem;
+      font-weight: 400;
+
+    }
+      .img__description {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        height: 33px;
+        width: 253px;
+        background-image: url('../assets/Decoration.svg');
+        background-repeat: no-repeat;
+        background-size: initial;
+    }
+  }
+.buttons {
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: lighter;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+
+  .button1 {
+    background: #fff;
+    text-decoration: none;
+    color: $fifthColor;
+    font-family: $font-base;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 2rem;
+    text-align: center;
+    border: 0.1rem solid $fifthColor
+
+  }
+  .button2 {
+    background: #fff;
+    text-decoration: none;
+    color: $fifthColor;
+    font-family: $font-base;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: 2rem;
+    text-align: center;
+    border: 0.1rem solid $fifthColor
+
+  }
+}
+
+
